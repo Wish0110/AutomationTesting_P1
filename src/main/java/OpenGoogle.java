@@ -36,8 +36,7 @@ public class OpenGoogle {
         String email = "wishhiranyaco@gmail.com";
 
         // Find the email field
-        WebElement emailField = driver.findElement(By.id("user_login")); // Note: This is the same field as the username field
-        emailField.clear();
+        WebElement emailField = driver.findElement(By.id("user_email"));
         emailField.sendKeys(email);
 
         // Generate random password
@@ -55,7 +54,7 @@ public class OpenGoogle {
         WebElement createAccountButton = driver.findElement(By.name("commit"));
         createAccountButton.click();
 
-        driver.quit();
+
     }
 
     private static String generateRandomName() {
