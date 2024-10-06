@@ -20,19 +20,19 @@ public class OpenGoogle {
 
         // Find the name field
         WebElement nameField = driver.findElement(By.id("user_name"));
-        nameField.sendKeys("Wish Hiranya");
+        nameField.sendKeys("navindu lakshan");
 
         // Find the username field
         WebElement usernameField = driver.findElement(By.id("user_login"));
-        usernameField.sendKeys("wishhh");
+        usernameField.sendKeys("navi1111");
 
         // Find the email field
         WebElement emailField = driver.findElement(By.id("user_email"));
-        emailField.sendKeys("hiranyawishmi@gmail.com");
+        emailField.sendKeys("navindulakshan960@gmail.com");
 
         // Find the password field
         WebElement passwordField = driver.findElement(By.id("user_password"));
-        passwordField.sendKeys("Wishmi_99");
+        passwordField.sendKeys("Navindu_99");
 
         // Find the terms checkbox
         WebElement termsCheckbox = driver.findElement(By.id("user_agree_to_terms"));
@@ -42,6 +42,6 @@ public class OpenGoogle {
         WebElement createAccountButton = driver.findElement(By.name("commit"));
         createAccountButton.click();
 
-        driver.quit();
+
     }
 }
